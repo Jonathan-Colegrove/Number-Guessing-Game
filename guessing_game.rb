@@ -22,6 +22,17 @@ if answer > random
   puts "Whoa, buddy!  A wee bit too high, try again!"
 end
 
+# If your guess is correct, the program should tell you that you win and then quit.
+if answer == random
+  puts "Great job!  You win!"
+  break
+end
+
+
+
+
+
+
 
 
 
