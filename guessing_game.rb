@@ -10,10 +10,20 @@ end
 
 puts "CHEAT MODE: REMOVE THIS BEFORE SHIPPING OUR GAME: #{random}"
 
-loop do
+# loop do
   # If your guess is less than the program's number, it should tell you that you were low and let you guess again
   answer = guess
   if answer < random
     puts "Oops!  A bit too low, try again!"
   end
+
+# If the guess is greater than the program's number, it should tell you that you were high and let you guess again
+if answer > random
+  puts "Whoa, buddy!  A wee bit too high, try again!"
 end
+
+
+
+
+
+# end
